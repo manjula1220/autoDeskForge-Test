@@ -17,5 +17,7 @@ Install `http-server` globally using `npm i http-server -g`.
 Serve "dist" bundles using `http-server /dist/<project-name>`
 
 Try to access `http://localhost:8080/`
+
  ( OR )
+ 
 if you face any probleam with "http-server" you can run project with `npm run start` and tyr to access `http://localhost:4200/`

@@ -1,0 +1,88 @@
+.flex-container {
+    width:100%;
+}
+.flex-container > div {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+.container {
+    margin: 0 auto;
+    /* display: flex; */
+    padding: 0px !important;
+}
+.main-container {
+    padding: 10px;
+}
+img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.card-body {
+    color: #666;
+    padding: 16px 0 0 0;
+    flex: 1;
+}
+.links {
+    color: #666;
+    padding: 28px 0 10px 0;
+}
+.links a:last-child{
+    border: 0px;
+}
+.links a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    padding: 9px 0;
+    border-bottom: 2px solid #f2f2f2;
+    font-size: 16px;    
+    line-height: 1.2;
+    position: relative;
+}
+.links a:hover {
+    font-weight: 500;
+}
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0 16px;
+    background-color: #fff;
+}
+.card-title {
+    padding: 16px 0 0 0;
+}
+.chevron {
+    position: absolute;
+    right: 0;
+}
+.row{
+    margin: 0px !important;
+}
+.title-container {
+    flex-direction: column;
+    padding-left: 16px;
+}
+.title-container h2 {
+    font-size: 24px;
+    color: #4d4d4d;
+    padding:5px 0 10px;
+}
+.title-container div {
+    margin-bottom: 1em;;
+}
+.main-section {
+    min-height: 100vh;
+}
+.background-container {
+    padding: 30px 0;
+}
+.apply-shadow {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.main-flex:hover {
+    box-shadow: 5px 10px 13px #808080; 
+   }

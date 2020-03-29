@@ -8,16 +8,18 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Build
 
-run `npm run build:app` for Bundling Application. t will create the "dist" folder.
+Step 1 : Run `npm i` in project folder to install all dependencies.
 
-Start JSON Server by running `npm run json:server`. Which will serves the db.json file as REST API.
+Step 2: Start JSON Server by running `npm run json:server`. Which will serves the db.json file as REST API.
+
+Step 3: You can run project with `npm run start` and tyr to access `http://localhost:4200/`
+
+( OR )
+ 
+ Run `npm run build:app` for Bundling Application. t will create the "dist" folder.
 
 Install `http-server` globally using `npm i http-server -g`.
 
 Serve "dist" bundles using `http-server /dist/<project-name>`
 
 Try to access `http://localhost:8080/`
-
- ( OR )
- 
-if you face any probleam with "http-server" you can run project with `npm run start` and tyr to access `http://localhost:4200/`
